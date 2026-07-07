@@ -55,6 +55,14 @@ public class TestSaison {
         assertNull(resultat);
     }
 
+    @Test
+    void testValueOfLibelleNull() {
+
+        Saison resultat = Saison.valueOfLibelle(null);
+
+        assertNull(resultat);
+    }
+
 
 
 }
